@@ -11,7 +11,7 @@ const possibleFortunes = [
     "enjoy a day of relaxation",
     "achieve a personal goal"
 ];
-const possibleActions = [
+const possibleAdvice = [
     "celebrate with friends",
     "take time to reflect",
     "invest in yourself",
@@ -30,6 +30,6 @@ randomElement = array => {
 
 const day = randomElement(possibleDays);
 const fortune = randomElement(possibleFortunes);
-const action = randomElement(possibleActions);
+const advice = randomElement(possibleAdvice);
 
-console.log(`On ${day}, you will ${fortune}. Therefore, you should ${action}.`);
+console.log(`On ${day}, you will ${fortune}. Therefore, you should ${advice}.`);
